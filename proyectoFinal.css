@@ -1,0 +1,199 @@
+* {
+    font-family: oswald;
+}
+
+header div {
+    vertical-align: top;
+    display: inline-block;
+}
+
+header, footer{
+    background-color: rgb(89, 204, 85);
+    border-radius: 15px;
+}
+
+header div:first-child {
+    width: 10%;   
+}
+
+#buscar {
+    width: 100px;
+}
+
+header div:nth-child(2) {
+    width: 70%;   
+}
+
+header div:last-child{
+    width: 15%; 
+    padding-top: 20px; 
+    font-size: 20px; 
+    padding-left: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px dotted black;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: rgba(229, 229, 153, 0.486);
+    box-shadow: 4px 4px 4px 4px #888888;
+}
+
+ol {
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover, #ulTraduccionComun li:hover, #ulTraduccionOficial li:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "dancing script";
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+#desplegable {
+    display: flex;
+    justify-content: center;
+}
+
+#tabla_con_desplegable {
+    width: 200px;
+    border: 2px dotted black;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: rgba(229, 229, 153, 0.486);
+    box-shadow: 4px 4px 4px 4px #888888;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    margin: 40px auto;
+    width: 50%;
+}
+
+#tabla, #tablaGeo, #tablaBanderas, #tablaTraducciones {
+    border-spacing: 20px;
+    margin: auto;
+}
+
+th {
+    background-color: rgb(89, 204, 85);
+    padding: 5px;   
+}
+
+#tabla td, #tablaGeo td, #tablaBanderas td, #tablaTraducciones td {
+    background-color: rgba(229, 229, 153, 0.486);
+    border: 1px dotted black;
+    border-radius: 15px;
+    padding: 5px;;
+    text-align: center;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+dt {
+    text-decoration: underline;
+}
+
+dd {    
+    margin-left: 0px;
+}
+
+
+#tabla ul {
+    margin-top: 0px;
+    margin-right: 40px;
+}
+
+#tabla li{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#listaFronteras, #ulTraduccionComun, #ulTraduccionOficial {
+    list-style: none;
+    padding-right: 40px;
+}
+
+#tdImagenBandera, #tdImagenEscudo {
+    width: 300px;
+    height: 200px;
+}
+
+#ulTraduccionComun li, #ulTraduccionOficial li {
+    margin: 10px;
+}
+
+#modalTraducciones{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 250px;
+    background-color: transparent;
+}
+
+#divContenidoModalTraducciones {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+#cerrarModalTraducciones {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding-top: 10px;
+}
+
+#headerModalTraducciones {
+    text-align: center;
+}
+
+#modalTraducciones button {
+    background-color: transparent;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
